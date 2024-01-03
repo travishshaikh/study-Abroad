@@ -1,0 +1,914 @@
+@font-face {
+    font-family: 'Neometric';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Neometric Regular'), url('/studyabroad/fonts/Neometric.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Neometric Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Neometric Medium'), url('/studyabroad/fonts/Neometric\ Medium.woff.woff') format('woff');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container {
+    position: relative;
+    z-index: 5;
+    max-width: 90rem;
+    margin: 0 auto;
+}
+
+.container nav {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 92%;
+    padding: 20px;
+    left: 0px;
+}
+
+.nav-1 {
+    display: flex;
+}
+
+.header-content {
+    display: flex;
+    max-width: 90rem;
+    margin: 0 auto;
+
+}
+
+.column-1 {
+    background: white;
+    width: 60%;
+    padding: 20px 20px 0px 20px;
+
+}
+
+.column-2 {
+    width: 40%;
+    padding: 73px 20px 0px 20px;
+    background-color: #101010;
+    overflow: hidden;
+}
+
+.column-2 .line {
+    width: 500px;
+    height: 500px;
+    object-fit: contain;
+    position: relative;
+}
+
+.column-2 .line img.line-img {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+
+
+
+}
+
+.column-2 .girl {
+    height: 589px;
+    max-width: 739px;
+    object-fit: contain;
+    position: absolute;
+    top: 3%;
+    left: 47%;
+}
+
+.column-2 .girl img.girl-img {
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+}
+
+.icon {
+    display: none;
+}
+
+.header-title {
+    color: #101010;
+    font-family: Neometric Medium;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 10px;
+    width: 75%;
+
+}
+
+.header-btn {
+    margin-top: 60px;
+}
+
+.header-btn .btn {
+    width: 289px;
+    height: 71px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: #101010;
+    font-family: Neometric Medium;
+
+}
+
+.header-btn a.register {
+    color: #FFFFFF;
+    background-color: #101010;
+    margin-right: 0.5rem;
+}
+
+.header-btn a.Schedule {
+    margin-left: 0.5rem;
+    border: 1px solid #101010;
+    border-radius: 10px;
+}
+
+.wrapper {
+    margin-top: 125px;
+}
+
+.text {
+    height: 170px;
+    width: 100%;
+    font-family: Neometric;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    width: 154px;
+    height: 53px;
+    border-radius: 10px;
+    border: 1px solid #101010;
+    text-align: center;
+}
+
+.logo a {
+    margin-top: 10px;
+    font-family: Neometric;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #101010;
+    text-decoration: none;
+
+}
+
+.talk {
+    display: flex;
+    justify-content: center;
+    width: 154px;
+    height: 53px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #DDF252;
+}
+
+.talk a {
+    padding: 10px;
+    font-family: Neometric Medium;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #101010;
+    text-decoration: none;
+}
+
+
+.talk {
+    width: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.ellipse-wrap{
+    display: flex;
+    margin: 30px 0px;
+    position: relative;
+}
+.ellipse{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #D9D9D9;
+    border: 2px solid white;
+  
+}
+.e-one {
+    position: relative;
+    right: 27px;
+    z-index: 1;
+    
+}
+.e-two {
+    position: relative;
+    right: 45px;
+    z-index: 1;
+    
+}
+.e-three {
+    position: relative;
+    right: 60px;
+    z-index: 1;
+    
+}
+
+.links ul {
+    display: flex;
+    align-items: flex-start;
+}
+
+.links ul li {
+    list-style: none;
+}
+
+.links a {
+    display: inline-block;
+    padding: 0.9rem 1.5rem;
+    color: #000;
+    text-transform: capitalize;
+    font-family: Neometric Medium;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+/* serviices */
+#services .container{
+    display: flex   ;
+}
+.column-3{
+    width: 40%;
+   max-height: 500px;
+
+}
+.column-3 ,img{
+    width: 100%;
+    height: 100%;
+}
+.img-gradient{
+    position: relative;
+}
+.img-gradient::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 0, #fff 100%);
+    height:100%; /* Adjust this value as needed */
+    pointer-events: none; /* Ensures the gradient doesn't interfere with content */
+}
+
+.column-4{
+    width: 60%;
+    padding: 30px 20px 0px 20px;
+}
+
+.text-1{
+    width: 100%;
+    font-family: Neometric;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+   
+
+
+}
+
+
+.number{
+    color: #DDF252;
+    font-size: 50px;
+    font-family: Neometric;
+    font-weight: 400;
+    line-height: 60px;
+    width: 50px;
+    height: 50px;
+}
+.why-info {
+    display: flex;
+    text-align: left;
+    height: 80px;
+    width: 400px;
+}
+.why-text{
+    font-family: Neometric Medium;
+    padding-left: 10px;
+}
+
+footer {
+    background: #101010;
+    height: 247px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-logo {
+    width: 760px;
+    height: 60px;
+    font-family: Neometric;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 30px 0px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-links a {
+
+    color: #FFFFFF;
+    font-family: Neometric Medium;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+}
+
+@media screen and (max-width: 600px) {
+    footer {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .footer-logo,
+    .footer-links {
+        width: 100%;
+        max-width: none;
+        text-align: center;
+    }
+
+    .footer-logo {
+        font-size: 5vw;
+        margin-bottom: 20px;
+    }
+
+    .footer-links {
+        flex-direction: column;
+    }
+
+    .footer-links a {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .links ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #333;
+    }
+
+    .links ul.show {
+        display: flex;
+    }
+
+    .links ul li {
+        margin: 0;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .icon {
+        display: block;
+    }
+
+    .header-content {
+        flex-direction: column;
+    }
+
+    .header-title {
+
+        width: 100%;
+
+    }
+
+    .text {
+        height: 100%;
+        width: 100%;
+        font-size: 40px;
+        line-height: 40px;
+
+    }
+
+    .header-btn {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .header-btn .btn {
+        width: 289px;
+        height: 71px;
+        border-radius: 10px;
+        padding: 10px 20px;
+        color: #101010;
+        font-family: Neometric Medium;
+
+    }
+
+    .register,
+    .schedule {
+        margin: 0px;
+
+    }
+
+    .wrapper {
+        margin-top: 60px;
+    }
+
+    .column-1,
+    .column-2 {
+        width: 100%;
+    }
+
+
+
+    .column-2 {
+        width: 100%;
+        padding: 0px;
+        position: relative;
+    }
+
+    .column-2 .line {
+        width: 100%;
+        height: 300px;
+
+        object-fit: contain;
+        position: relative;
+    }
+
+    .column-2 .girl {
+        width:100%;
+        height: 300px;
+        object-fit: contain;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+    .column-2 .girl img.girl-img {
+        width: 100%;
+        height: 100%;
+        z-index: 5;
+    }
+
+    .talk {
+        display: none;
+    }
+    .header-btn a.register {
+      
+        margin-right:0rem;
+    }
+    
+    .header-btn a.Schedule {
+        margin-left:0rem;
+        
+    }
+
+
+    #services .container {
+        flex-direction: column; 
+    }
+
+    .column-3 {
+        width: 100%;
+        height: 200px;
+        background-position: center center; 
+    }
+
+    .column-4 {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .why-info {
+        max-width: 100%; 
+    }
+   
+    
+}
+
+/* section five-steps */
+
+.row{
+    display: flex;
+    padding: 20px 0px;
+}
+.col-4{
+    width: 40%;
+    display: flex;
+    padding: 20px;
+}
+
+
+.future-text{
+    color: #101010;
+    font-family: Neometric Medium;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 10px;
+    width: 75%;
+    margin-bottom: 10px;
+}
+.future-text-1{
+    color: #101010;
+    font-family: Neometric Medium;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 10px;
+
+    margin-bottom: 10px;
+}
+.register-1 {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 53px;
+    border-radius: 10px;
+    border: 1px solid #101010;
+    text-align: center;
+    background-color: #101010;
+   margin-top: 30px;
+}
+
+.register-1 a {
+    margin-top: 10px;
+    font-family: 'Neometric Meduim';
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+
+.col-8{
+    width: 60%;
+    padding: 20px;
+}
+.item{
+    margin: 10px !important ;
+}
+.item-info{
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.item-info h4{
+    color: #DDF252;
+    font-size: 50px;
+    font-family: 'Neometric';
+    font-weight: 400;
+    line-height: 45px;
+    width: 50px;
+    height: 50px;
+}
+.item-info p{
+    color: #101010;
+    font-size: 20px;
+    font-family:' Neometric Meduim';
+    font-weight: 400;
+}
+
+@media screen and (max-width: 768px) {
+    .row{
+        display: block;
+    }
+    .col-4{
+        width: 100%;
+        padding: 20px;
+    }
+    .col-8{
+        width: 100%;
+        padding: 0 !important;
+    }
+
+
+    
+}
+
+.clients-logo img {
+    width: 100%;
+    height: auto;
+    display: block; 
+    max-width: 100%; 
+}
+
+.row-1{
+    display: flex;
+}
+.column-6 {
+    width: 40%;
+    padding: 20px 20px 0px 20px;
+    background-color: #101010;
+}
+
+.column-6 .line {
+    width: 500px;
+    height: 500px;
+    object-fit: contain;
+    position: relative;
+}
+
+.column-6 .line img.line-img {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.column-6 .girl {
+    width: 650px;
+    height: 500px;
+    object-fit: contain;
+    position: absolute;
+    top: 6%;
+
+}
+
+.column-6 .girl img.girl-img {
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+}
+
+.column-7{
+    width: 60%;
+
+}
+.upper-point{
+    display: flex;
+}
+.upper-point .first,.second{
+    width: 260px;
+}
+.upper-point .first{
+    padding-right: 40px;
+}
+.upper-point .second{
+    padding-left: 40px;
+}
+.lower-point{
+    display: flex;
+
+}
+.lower-point .first,.second{
+    width: 260px;
+}
+.lower-point .first{
+    padding-right: 39px;
+}
+.lower-point .second{
+    padding-left: 39px;
+}
+button.owl-dot.active span {
+    width: 50px !important;
+   
+    background: #ddf252 !important;
+}
+button.owl-dot span {
+    width: 25px !important;
+   
+    background: #ddf252 !important;
+}
+
+@media screen and (max-width: 768px) {
+    .row-1{
+        display: block;
+    }
+    .column-6 {
+        width: 100%;
+        padding: 20px 20px 0px 20px;
+        background-color: #101010;
+    }
+    .column-6 .line {
+        width: 100%;
+        height: 300px;
+
+        object-fit: contain;
+        position: relative;
+    }
+
+    .column-6 .girl {
+        width: 100%;
+        height: 300px;
+        object-fit: contain;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+    .column-6 .girl img.girl-img {
+        width: 100%;
+        height: 100%;
+        z-index: 5;
+    }
+}
+
+.column-7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.achiv-info {
+    margin-top: 40px;
+}
+
+.register-2 {
+    margin-top: 30px 30px;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 53px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #DDF252;
+}
+
+.register-2 a {
+    margin-top: 10px;
+    font-family: 'Neometric Meduim';
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+
+@media screen and (max-width: 768px) {
+    .column-7{
+        width: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        padding: 20px;
+    }
+    .text-1 {
+        width: 100%;
+        font-family: Neometric;
+        font-size: 35px;
+       
+       
+    }
+    .future-text{
+        width: 100%;
+    }
+    .register-2 {
+      margin: 20px 0px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    
+.upper-point{
+    display: block;
+}
+.upper-point .first,.second{
+   width: 100%;
+}
+.upper-point .first{
+    padding-right: 0px;
+}
+.upper-point .second{
+    padding-left: 0px;
+}
+.lower-point{
+    display: block;
+
+}
+.lower-point .first,.second{
+    width: 100%;
+}
+.lower-point .first{
+    padding-right: 0px;
+}
+.lower-point .second{
+    padding-left: 0px;
+}
+.text-1{
+    font-size: 2.5rem;
+}
+}
+
+.counsellors {
+    background-color: #ddf252;
+    padding: 30px 20px;
+}
+
+.couns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0px 104px;
+}
+
+.couns-text {
+    margin-bottom: 20px;
+}
+.couns-text h1{
+    width: 100%;
+    font-family: Neometric;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.couns-button a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #fcfcfc;
+    color:#333;
+    border-radius: 5px;
+}
+
+/* Media queries for responsiveness */
+
+@media screen and (min-width: 768px) {
+    .couns {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        text-align: left;
+    }
+
+    .couns-text {
+        margin-bottom: 0;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .couns {
+        flex-direction: column;
+        padding: 0;
+        text-align: center;
+    }
+    .couns-text {
+        margin-bottom: 0;
+        margin-right: 0px;
+        text-align: center;
+    }
+
+    
+}
+
+
